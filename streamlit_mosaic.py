@@ -12,8 +12,9 @@ import streamlit as st
 from PIL import Image
 from io import BytesIO
 
-st.set_page_config(page_title="Image-Grid Combiner", layout="centered")
+st.set_page_config(page_title="Mosaic", layout="centered")
 st.title("🖼️ Image-Grid Combiner (full-bleed)")
+st.markdown("By: **Prof. Rajesh Tharyan**")
 
 # 1. Upload images
 files = st.file_uploader(
